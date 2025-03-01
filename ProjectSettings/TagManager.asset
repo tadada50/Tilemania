@@ -13,11 +13,11 @@ TagManager:
   - UI
   - Ground
   - Ladder
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Background
+  - Bouncing
+  - Enemies
+  - Hazard
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Parallax0
+    uniqueID: 3222568373
+    locked: 0
   - name: Background
     uniqueID: 3705717997
     locked: 0
@@ -52,6 +55,12 @@ TagManager:
     locked: 0
   - name: Platforms
     uniqueID: 4234585061
+    locked: 0
+  - name: Hazard
+    uniqueID: 1707093991
+    locked: 0
+  - name: Enemies
+    uniqueID: 3635941269
     locked: 0
   - name: Player
     uniqueID: 1889277695
