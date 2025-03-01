@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: 340c2380a7bb14742a9d519e401b4afe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7102661278675449860
+    second: SPA_Weapons_0
+  - first:
+      213: 6387887594543699962
+    second: SPA_Weapons_1
+  - first:
+      213: 1813267672539335393
+    second: SPA_Weapons_2
+  - first:
+      213: 1689695243028128905
+    second: SPA_Weapons_3
+  - first:
+      213: 1537512107729907408
+    second: SPA_Weapons_4
+  - first:
+      213: 2885334784782419916
+    second: SPA_Weapons_5
+  - first:
+      213: 6876928624547699389
+    second: SPA_Weapons_6
+  - first:
+      213: 3444156295171114628
+    second: SPA_Weapons_7
+  - first:
+      213: -8064041196463775009
+    second: SPA_Weapons_8
+  - first:
+      213: -2138256465281242215
+    second: SPA_Weapons_9
+  - first:
+      213: 1539029823395704053
+    second: SPA_Weapons_10
+  - first:
+      213: 156309239754713860
+    second: SPA_Weapons_11
+  - first:
+      213: 3219070581249045220
+    second: SPA_Weapons_12
+  - first:
+      213: 5346641594627683073
+    second: SPA_Weapons_13
+  - first:
+      213: -7655799148402124989
+    second: SPA_Weapons_14
+  - first:
+      213: -3998486483556005737
+    second: SPA_Weapons_15
+  - first:
+      213: 9197779210989208671
+    second: SPA_Weapons_16
+  - first:
+      213: 8206627787962852113
+    second: SPA_Weapons_17
+  - first:
+      213: 1345090905912650584
+    second: SPA_Weapons_18
+  - first:
+      213: 6540744163043413686
+    second: SPA_Weapons_19
+  - first:
+      213: -83059963613190926
+    second: SPA_Weapons_20
+  - first:
+      213: 6883559384130887058
+    second: SPA_Weapons_21
+  - first:
+      213: 8695936865751529902
+    second: SPA_Weapons_22
+  - first:
+      213: -2015003421708890042
+    second: SPA_Weapons_23
+  - first:
+      213: -6766798003882163861
+    second: SPA_Weapons_24
+  - first:
+      213: 2494254912175846762
+    second: SPA_Weapons_25
+  - first:
+      213: -1984591337861158486
+    second: SPA_Weapons_26
+  - first:
+      213: 144712580237733058
+    second: SPA_Weapons_27
+  - first:
+      213: -2646837628582256388
+    second: SPA_Weapons_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPA_Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4083f5b2dc8b19260800000000000000
+      internalID: 7102661278675449860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 195
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7d6e93ce556a850800000000000000
+      internalID: 6387887594543699962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 195
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea086057550a2910800000000000000
+      internalID: 1813267672539335393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 195
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984eb530fd0037710800000000000000
+      internalID: 1689695243028128905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 195
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de6a1bad17565510800000000000000
+      internalID: 1537512107729907408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 157
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7c80913b4ca0820800000000000000
+      internalID: 2885334784782419916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 157
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba91e30622cf6f50800000000000000
+      internalID: 6876928624547699389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 157
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486899c07e91ccf20800000000000000
+      internalID: 3444156295171114628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 157
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd229a6c145c61090800000000000000
+      internalID: -8064041196463775009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 119
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99baa34e2136352e0800000000000000
+      internalID: -2138256465281242215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 121
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcab32687bbb5510800000000000000
+      internalID: 1539029823395704053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 121
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40be0b6ec625b2200800000000000000
+      internalID: 156309239754713860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 121
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2724663af6cac20800000000000000
+      internalID: 3219070581249045220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 119
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1037c1dd336133a40800000000000000
+      internalID: 5346641594627683073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 81
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347d0c79c3321c590800000000000000
+      internalID: -7655799148402124989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 81
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79881746ab58288c0800000000000000
+      internalID: -3998486483556005737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f540c71e57315af70800000000000000
+      internalID: 9197779210989208671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 47
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11320691e7cc3e170800000000000000
+      internalID: 8206627787962852113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 47
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b28856d09baa210800000000000000
+      internalID: 1345090905912650584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be89e4792465ca50800000000000000
+      internalID: 6540744163043413686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 5
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f467c53769e8def0800000000000000
+      internalID: -83059963613190926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 7
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d9d690ac0578f50800000000000000
+      internalID: 6883559384130887058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 9
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9f750a18c2ea870800000000000000
+      internalID: 8695936865751529902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_23
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 7
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64058db50154904e0800000000000000
+      internalID: -2015003421708890042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 7
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6108c741118712a0800000000000000
+      internalID: -6766798003882163861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 7
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65b383a0af5d9220800000000000000
+      internalID: 2494254912175846762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_26
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 11
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9e77a61b05574e0800000000000000
+      internalID: -1984591337861158486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 11
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cca993335f120200800000000000000
+      internalID: 144712580237733058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_28
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 9
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0a73a433b844bd0800000000000000
+      internalID: -2646837628582256388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_29
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 85
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f535cfa962aabd841a8c4562a0e77c3c
+      internalID: 753567130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 89
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317aa9c1090a8524a9c3047f124d106e
+      internalID: 1529104268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_31
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 86
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf83a8eb9019f0439cf31bba00c7ef2
+      internalID: -1129580124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPA_Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 86
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a17e41de4eb7443bb5e91bde73273a
+      internalID: -675475295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 22a39e8d28b8c5e4db019af1d406ef75
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPA_Weapons_0: 7102661278675449860
+      SPA_Weapons_1: 6387887594543699962
+      SPA_Weapons_10: 1539029823395704053
+      SPA_Weapons_11: 156309239754713860
+      SPA_Weapons_12: 3219070581249045220
+      SPA_Weapons_13: 5346641594627683073
+      SPA_Weapons_14: -7655799148402124989
+      SPA_Weapons_15: -3998486483556005737
+      SPA_Weapons_16: 9197779210989208671
+      SPA_Weapons_17: 8206627787962852113
+      SPA_Weapons_18: 1345090905912650584
+      SPA_Weapons_19: 6540744163043413686
+      SPA_Weapons_2: 1813267672539335393
+      SPA_Weapons_20: -83059963613190926
+      SPA_Weapons_21: 6883559384130887058
+      SPA_Weapons_22: 8695936865751529902
+      SPA_Weapons_23: -2015003421708890042
+      SPA_Weapons_24: -6766798003882163861
+      SPA_Weapons_25: 2494254912175846762
+      SPA_Weapons_26: -1984591337861158486
+      SPA_Weapons_27: 144712580237733058
+      SPA_Weapons_28: -2646837628582256388
+      SPA_Weapons_29: 753567130
+      SPA_Weapons_3: 1689695243028128905
+      SPA_Weapons_30: 1529104268
+      SPA_Weapons_31: -1129580124
+      SPA_Weapons_32: -675475295
+      SPA_Weapons_4: 1537512107729907408
+      SPA_Weapons_5: 2885334784782419916
+      SPA_Weapons_6: 6876928624547699389
+      SPA_Weapons_7: 3444156295171114628
+      SPA_Weapons_8: -8064041196463775009
+      SPA_Weapons_9: -2138256465281242215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

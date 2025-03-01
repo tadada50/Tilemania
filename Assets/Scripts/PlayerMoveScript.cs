@@ -13,6 +13,8 @@ public class PlayerMoveScript : MonoBehaviour
     // [SerializeField] float backGroundMoveFactorY;
     [SerializeField] float runSpeed = 5f;
     [SerializeField] float maxVelocity = 15f;
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
     // [SerializeField] float maxGravity = 20f;
     bool isAlive = true;
     Vector2 moveInput;
@@ -53,6 +55,13 @@ public class PlayerMoveScript : MonoBehaviour
  
     }
 
+    void OnAttack(InputValue value){
+        if(!isAlive){
+            return;
+        }
+        Debug.Log("Shoot");
+        Instantiate(bullet, gun.position, transform.rotation);
+    }
  /// <summary>
     /// Sent when another object enters a trigger collider attached to this
     /// object (2D physics only).
@@ -60,6 +69,9 @@ public class PlayerMoveScript : MonoBehaviour
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnTriggerEnter2D(Collider2D other)
     {
+        if(!isAlive){
+            return;
+        }
         // string layerName = LayerMask.LayerToName(other.gameObject.layer);
         //  Debug.Log("Collider layer: "+other.gameObject.layer + " Collider layer: " + LayerMask.GetMask("Hazard"));
         // if(other.gameObject.layer == LayerMask.GetMask("Enemies")){ // Enemy layer
