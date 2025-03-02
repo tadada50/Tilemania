@@ -3,9 +3,11 @@ using UnityEngine;
 
 public class BulletImpact : MonoBehaviour
 {
+    Animator myAnimator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        myAnimator = GetComponent<Animator>();
         StartCoroutine(SelfDestroy());
     }
 
@@ -28,6 +30,7 @@ public class BulletImpact : MonoBehaviour
     // }
 
     IEnumerator SelfDestroy(){
+        myAnimator.SetTrigger("Impact");
         yield return new WaitForSeconds(0.05f);
         Destroy(gameObject);
     }

@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\ParallaxController.cs" />
     <Compile Include="Assets\Scripts\BulletImpact.cs" />
     <Compile Include="Assets\Scripts\PlayerMoveScript.cs" />
+    <Compile Include="Assets\Scripts\LevelExit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\README - License details.txt" />
