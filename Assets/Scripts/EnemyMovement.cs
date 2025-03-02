@@ -19,9 +19,12 @@ public class EnemyMovement : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D collision)
     {
+
+            moveSpeed = -moveSpeed;
+            FlipEnemyFacing();
+
         // Debug.Log("Enemy Exiting Trigger");
-        moveSpeed = -moveSpeed;
-        FlipEnemyFacing();
+
     }
     void FlipEnemyFacing(){
         transform.localScale = new Vector2(-(Mathf.Sign(myRigidbody.linearVelocityX)),1f);

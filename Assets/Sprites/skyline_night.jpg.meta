@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skyline_night_0: 63241615564395988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

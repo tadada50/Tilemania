@@ -36,7 +36,7 @@ public class PlayerMoveScript : MonoBehaviour
         myFeetColliders = GetComponents<BoxCollider2D>();
         defaultGravity = myRigidbody.gravityScale;
         animatorSpeed = myAnimator.speed;
-
+        
         // backgroundRigitBody = backGround.GetComponentInChildren<Rigidbody2D>();
         // Debug.Log("myCapsuleCollider:"+ myCapsuleColliders.Length);
     }
@@ -59,7 +59,7 @@ public class PlayerMoveScript : MonoBehaviour
         if(!isAlive){
             return;
         }
-        Debug.Log("Shoot");
+        // Debug.Log("Shoot");
         Instantiate(bullet, gun.position, transform.rotation);
     }
  /// <summary>
@@ -91,8 +91,20 @@ public class PlayerMoveScript : MonoBehaviour
             if(isAlive)
                 Die();
         }
+    }
 
-
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(!isAlive){
+            return;
+        }
+        if(myFeetColliders[0].IsTouchingLayers(LayerMask.GetMask("Enemies")) || myCapsuleColliders[0].IsTouchingLayers(LayerMask.GetMask("Enemies"))){
+            // Debug.Log("Touching Enemies");
+            myRigidbody.linearVelocity += new Vector2(0f,8f);
+            myRigidbody.linearVelocityX = 0;
+            if(isAlive)
+                Die();
+        }
     }
     void FixedUpdate()
     {
@@ -192,6 +204,7 @@ public class PlayerMoveScript : MonoBehaviour
     void Die(){
         isAlive = false;
         myAnimator.SetTrigger("Dying");
+        FindFirstObjectByType<GameSession>().ProcessPlayerDeath();
 
     }
 }

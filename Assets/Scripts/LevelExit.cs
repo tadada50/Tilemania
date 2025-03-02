@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelExit : MonoBehaviour
 {
@@ -24,15 +25,24 @@ public class LevelExit : MonoBehaviour
     /// <param name="other">The Collision2D data associated with this collision.</param>
     void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if(collision.tag == "Player"){
             StartCoroutine(LoadNextLevel());
         }
     }
     
     IEnumerator LoadNextLevel(){
-
-        Debug.Log("--> Load Next");
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextScene=0;
+        
+        if(SceneManager.sceneCountInBuildSettings>currentSceneIndex+1){
+            nextScene = currentSceneIndex+1; 
+        }
+        Debug.Log("==>LoadNextLevel CurrentSceneIndex:"+currentSceneIndex + " Next Scene:"+nextScene +" Scenecount:"+SceneManager.sceneCountInBuildSettings);
         yield return new WaitForSeconds(2f);
-        Debug.Log("<-- Load Next");
+
+        
+        FindFirstObjectByType<ScenePersist>().ResetScenePersist();
+        SceneManager.LoadScene(nextScene);
     }
 }
