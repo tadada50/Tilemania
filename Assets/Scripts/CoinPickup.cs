@@ -24,7 +24,7 @@ public class CoinPickup : MonoBehaviour
     {
         if(collision.tag == "Player" && !wasCollected){
             wasCollected = true;
-            // AudioSource.PlayClipAtPoint(coinPickupSFX,Camera.main.transform.position);
+            AudioSource.PlayClipAtPoint(coinPickupSFX,Camera.main.transform.position);
             gameSession.AddToScore(pointsForPickup);
             Destroy(gameObject);
         }

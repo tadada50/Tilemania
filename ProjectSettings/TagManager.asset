@@ -63,11 +63,11 @@ TagManager:
   - name: Hazard
     uniqueID: 1707093991
     locked: 0
-  - name: Enemies
-    uniqueID: 3635941269
-    locked: 0
   - name: Pickups
     uniqueID: 1369322349
+    locked: 0
+  - name: Enemies
+    uniqueID: 3635941269
     locked: 0
   - name: Player
     uniqueID: 1889277695

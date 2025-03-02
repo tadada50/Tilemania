@@ -3,6 +3,9 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 1f;
+    float timerCooldown = 0.5f;
+    float timer = 0f;
+    bool flipLockout = false;
     Rigidbody2D myRigidbody;
 
 
@@ -16,12 +19,39 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
         myRigidbody.linearVelocity = new Vector2 (moveSpeed, 0f);
+        if ( flipLockout == true )
+        {
+            timer -= Time.deltaTime;
+        
+            if ( timer <= 0 )
+            {
+                // Debug.Log("Lockout = false");
+                timer = timerCooldown;
+                flipLockout = false;
+                
+                // a delayed action could be called from here
+                // once the lock-out period expires
+            }
+        }
     }
     void OnTriggerExit2D(Collider2D collision)
     {
-
+        if(collision.tag == "Ground" && !flipLockout){
+            flipLockout = true;
             moveSpeed = -moveSpeed;
             FlipEnemyFacing();
+        }
+
+
+            // if(lastFlipElapsed > flipRateMinSec){
+            //     moveSpeed = -moveSpeed;
+            //     lastFlipElapsed = 0f;
+            //     FlipEnemyFacing();
+            // }else{
+            //     lastFlipElapsed += Time.deltaTime;
+            //     Debug.Log("lastFlipElapsed: "+lastFlipElapsed);
+            // }
+
 
         // Debug.Log("Enemy Exiting Trigger");
 
